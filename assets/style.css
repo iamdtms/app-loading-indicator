@@ -1,0 +1,18 @@
+#loader {
+    display: grid;
+    min-block-size: 100vh;
+    min-inline-size: 100vw;
+    place-content: center;
+    position: absolute;
+    font-size: 5.5rem;
+    inset: 0;
+    background-color: white; /* variable replacement available */
+    color: black; /* variable replacement available */
+    z-index: 100;
+  }
+  
+#loader.loaded {
+    transition: all ease 2s;
+    visibility: hidden;
+    z-index: 0;
+}
